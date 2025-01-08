@@ -10,7 +10,7 @@
 </head>
 <body>
 <%
-	String json = "{\"nombre\":\"Esteban\"}";
+	String json = "{\"nombre\":\"Gerardo\",\"apellidos\":\"Vacis\"}";
 	LeerJsonPersona leer = new LeerJsonPersona();
 	Persona p = leer.getPersona(json);
  %>
